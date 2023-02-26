@@ -25,9 +25,9 @@ cafe con leche #969172 */
     justify-content: space-around;
     position: fixed;
     background-color: transparent;
-    z-index: 100;
+    z-index: 101;
     width: 100%;
-    margin: .75rem 0 .75rem 0;
+    padding: .75rem 0 .75rem 0;
 }
 
 .DivNavigation {
@@ -83,64 +83,7 @@ cafe con leche #969172 */
     transform: scaleX(1);
 }
 
-.DivShift {
-    background-color: transparent;
-    position: absolute;
-    z-index: 100;
-    max-width: 100%;
-    /* margin: 230px 125px 0 185px; */
-    margin: 30vh 125px 0 14vw;
-}
 
-.Shift {
-    font-family: serif;
-    font-weight: 300;
-    color: #FFFFFF;
-    padding-bottom: .25rem;
-    font-size: 60px;
-    letter-spacing: -1px;
-}
-
-.ButtonShift {
-    background-color: rgb(28, 98, 139);
-    color: white;
-    border: 1px solid white;
-    font-family: 'Rubik';
-    font-size: 16px;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    min-width: 150px;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-.ButtonShift:hover {
-    background-color: rgb(41, 146, 207);
-    transition-duration: 300ms;
-    cursor: pointer;
-}
-
-.ButtonShift::after {
-    display:block;
-    content: '';
-    border-bottom: solid 1px #FFFFFF;
-    transform: scaleX(0);  
-    transition: transform 150ms ease-in-out;
-}
-
-.ButtonShift:hover:after { 
-    transform: scaleX(1);
-}
-
-.Video {
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: -100;
-    max-width: 100%;
-    filter: grayscale(.5);
-    display: block;
-    opacity: .85;
-}
 
 @media (max-width: 480px) {
     .ContainerNavigation {
@@ -157,23 +100,7 @@ cafe con leche #969172 */
     }
 
 
-    .DivShift {
-        width: 100vw;
-        margin: 9vh auto;
-        text-align: center;
-    }
-
-
-    .Shift {
-        font-size: 20px;
-        padding-bottom: .3rem;
-    }
-
-    .ButtonShift {
-        font-size: 10px;
-        min-width: 115px;
-        padding: .3rem;
-    }
+    
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -190,39 +117,5 @@ cafe con leche #969172 */
         font-size: 24px;
     }
 
-    .DivShift {
-        width: 100vw;
-        margin: 12vh auto;
-        text-align: center;
-    }
-
-
-    .Shift {
-        font-size: 26px;
-        padding-bottom: .5rem;
-    }
-
-    .ButtonShift {
-        font-size: 10px;
-        min-width: 115px;
-        padding: .5rem;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1279px) {
-    .DivShift {
-        margin: 18vh 125px 0 10vw;
-    }
-
-
-    .Shift {
-        font-size: 42px;
-        padding-bottom: .50rem;
-    }
-
-    .ButtonShift {
-        font-size: 12px;
-        min-width: 125px;
-        padding: 1rem;
-    }
+    
 }
