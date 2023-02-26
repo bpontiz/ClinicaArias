@@ -19,12 +19,6 @@ export default function Navigation() {
                     </ul>
                 </div>
             </div>
-            <div className="DivVideo">
-                <video autoPlay={true} muted loop className="Video">
-                    <source src={smilingGirl} type="video/webm" />
-                    <source src={smilingGirl} type="video/mp4" />
-                </video>
-            </div>
         </section>
     )
 };
