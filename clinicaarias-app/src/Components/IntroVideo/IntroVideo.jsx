@@ -1,5 +1,4 @@
 import './IntroVideo.css';
-import { Link } from 'react-router-dom';
 import smilingGirl1 from '../../Multimedia/Videos/smilingGirl1.mp4';
 
 export default function IntroVideo() {

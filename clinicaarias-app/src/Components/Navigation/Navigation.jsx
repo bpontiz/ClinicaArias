@@ -1,6 +1,5 @@
 import './Navigation.css';
 import { Link } from 'react-router-dom';
-import smilingGirl from '../../Multimedia/Videos/smilingGirl.mp4';
 
 export default function Navigation() {
 
