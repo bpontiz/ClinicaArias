@@ -14,7 +14,7 @@
 .ClinicSubtitle {
     padding: 2rem;
     text-align: center;
-    font-size: 60px;
+    font-size: 64px;
     font-weight: 200;
     letter-spacing: 1px;
     color: rgb(170, 145, 2);
@@ -26,12 +26,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: serif;
 }
 
 .ClinicInfo {
-    margin: 0 3rem 0 1rem;
-    padding: 1.5rem;
-    border: 1px solid black;
+    margin: 0 1rem 0 1rem;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    max-width: 700px;
+    line-height: 2rem;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 
 .ClinicImage {
@@ -40,4 +44,58 @@
     -webkit-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 480px) {
+
+    .ClinicSubtitle {
+        font-size: 50px;
+    }
+
+    .DivClinic {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ClinicInfo {
+        width: 100%;
+        margin-top: 1rem;
+        padding: .25rem;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .DivClinic {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .ClinicInfo {
+        max-width: 500px;
+        margin-top: 1rem;
+        padding: .25rem;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+    .ClinicImage {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .ClinicInfo {
+        margin: 0 1rem 0 1rem;
+        padding: 0 .25rem 1.5rem .25rem;
+        max-width: 900px;
+        line-height: 2rem;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
 }

@@ -6,8 +6,8 @@ export default function About() {
         <section className="SectionAbout">
             <p className="ClinicSubtitle">Clínica Arias</p>
             <div className="DivClinic">
-                <p className="ClinicInfo">INFORMATION</p>
                 <img src={clinica1} alt="Foto Clinica" className="ClinicImage"/>
+                <p className="ClinicInfo">El equipo de profesionales de Clínica Arias apuesta a la innovación y a la tecnología, que en conjunto con la experiencia y trayectoria brinda soluciones odontológicas de excelencia. La amplia gama de servicios que sus especialistas pueden prestar, posiciona a esta clínica en lo más alto de la odontología regional.</p>
             </div>
             <div>
                 
