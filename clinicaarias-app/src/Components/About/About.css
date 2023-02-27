@@ -12,12 +12,21 @@
 }
 
 .ClinicSubtitle {
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     text-align: center;
     font-size: 64px;
     font-weight: 200;
     letter-spacing: 1px;
     color: rgb(170, 145, 2);
+}
+
+.ClinicSubtitle2 {
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: black;
 }
 
 .DivClinic {

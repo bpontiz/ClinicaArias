@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SectionSpecialities {
+    font-family: serif;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+}
+
+.SpecialitiesSubtitle {
+    padding: 2rem;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: #686396;
+}
+
+.DivSpecialities {
+    max-width: 100%;
+    margin: 1rem 3rem 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: serif;
+}
+
+.SpecialitiesInfo {
+    margin: 0 2rem 0 2rem;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    max-width: 500px;
+    line-height: 1.5rem;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.SpecialitiesInfo:hover {
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+}
+
+.Speciality {
+    margin: 0 1rem 0 1rem;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    max-height: 100px;
+}
+
+.Speciality:hover {
+    transition: .1s ease-in-out;
+    border-radius: 20px;
+    color: #686396;
+}
+
+.SpecialityImage {
+    max-width: 260px;
+    max-height: 275px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+}
