@@ -15,7 +15,7 @@ function App() {
           <About />
           <Specialities />
         </>} />
-        <Route path='' element='' />
+        <Route path='/especialidades' element={<Specialities />} />
         <Route path='' element='' />
         <Route path='' element='' />
       </Routes>

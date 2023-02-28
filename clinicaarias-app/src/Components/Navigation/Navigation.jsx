@@ -6,6 +6,8 @@ export default function Navigation() {
 
     const [backgroundColor, setBackgroundColor] = useState(false);
 
+    const [buttonVisibility, setButtonVisibility] = useState(false);
+
     const changeBackground = () => {
         if (window.scrollY >= 80) {
             setBackgroundColor(true);
@@ -13,12 +15,26 @@ export default function Navigation() {
         } else {
             setBackgroundColor(false);
         }
-
     };
+
+    const toggleVisible = () => {
+        if (window.scrollY > 200){
+            setButtonVisibility(true)
+        } 
+        else if (window.scrollY <= 200){
+            setButtonVisibility(false)
+        }
+    };
+
+    const handleToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth'});
+    };
+
+    window.addEventListener('scroll', toggleVisible);
 
     window.addEventListener('scroll', changeBackground);
 
-    return (
+    return <>
         <section className="Navigation">
             <div className={backgroundColor ? "ContainerNavigationColor" : "ContainerNavigationTransparent"}>
                 <div className="DivImage">
@@ -28,11 +44,12 @@ export default function Navigation() {
                     <ul className="UlNavigationList">
                         <Link to="/" className="Link"><li className="LiNavigationItem">HOME</li></Link>
                         <Link to="#" className="Link"><li className="LiNavigationItem">TURNOS</li></Link>
-                        <Link to="#" className="Link"><li className="LiNavigationItem">ESPECIALIDADES</li></Link>
+                        <Link to="/especialidades" className="Link"><li className="LiNavigationItem">ESPECIALIDADES</li></Link>
                         <Link to="#" className="Link"><li className="LiNavigationItem">CONTACTO</li></Link>
                     </ul>
                 </div>
             </div>
         </section>
-    )
+        <button className={buttonVisibility ? "ButtonSubir" : "ButtonHidden"} onClick={handleToTop}><p className="Subir" onClick={handleToTop}>↑Subir</p></button>
+    </>
 };

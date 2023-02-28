@@ -100,11 +100,56 @@ cafe con leche #969172 */
     transform: scaleX(1);
 }
 
+.ButtonSubir {
+    cursor: pointer;
+    position: fixed;
+    top: 90vh;
+    left: 90vw;
+    border: none;
+    background-color: transparent;
+    margin: .75rem;
+    border-radius: 10px;
+    transition: 1s ease-in-out
+}
+
+.ButtonHidden {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: 90vh;
+    left: 90vw;
+    border: none;
+    background-color: transparent;
+    margin: .75rem;
+    border-radius: 10px;
+    transition: 1s ease-in-out
+}
+
+.Subir {
+    padding: .25rem;
+    font-family: 'Rubik';
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.Subir:hover {
+    background-color: #969172;
+    color: #FFFFFF;
+    transition: .2s ease-in-out;
+}
 
 @media (max-width: 480px) {
-    .ContainerNavigation {
+    .ContainerNavigationColor, .ContainerNavigationTransparent {
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .ButtonSubir {
+        left: 80vw;
+    }
+    
+    .ButtonHidden {
+        left: 80vw;
     }
 
     .LiNavigationItem {
@@ -115,8 +160,6 @@ cafe con leche #969172 */
         font-size: 18px;
     }
 
-
-    
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -133,5 +176,82 @@ cafe con leche #969172 */
         font-size: 24px;
     }
 
-    
+    .ButtonSubir {
+        cursor: pointer;
+        position: fixed;
+        top: 90vh;
+        left: 85vw;
+        border: none;
+        background-color: transparent;
+        margin: .25rem;
+        border-radius: 10px;
+        transition: 1s ease-in-out
+    }
+
+    .ButtonHidden {
+        display: none;
+        cursor: pointer;
+        position: fixed;
+        top: 90vh;
+        left: 85vw;
+        border: none;
+        background-color: transparent;
+        margin: .25rem;
+        border-radius: 10px;
+        transition: 1s ease-in-out
+    }
+
+    .Subir {
+        padding: .25rem;
+        font-family: 'Rubik';
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .Subir:hover {
+        background-color: #969172;
+        color: #FFFFFF;
+        transition: .2s ease-in-out;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .ButtonSubir {
+        cursor: pointer;
+        position: fixed;
+        top: 90vh;
+        left: 90vw;
+        border: none;
+        background-color: transparent;
+        margin: .75rem;
+        border-radius: 10px;
+        transition: 1s ease-in-out
+    }
+
+    .ButtonHidden {
+        display: none;
+        cursor: pointer;
+        position: fixed;
+        top: 90vh;
+        left: 90vw;
+        border: none;
+        background-color: transparent;
+        margin: .75rem;
+        border-radius: 10px;
+        transition: 1s ease-in-out
+    }
+
+    .Subir {
+        padding: .25rem;
+        font-family: 'Rubik';
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .Subir:hover {
+        background-color: #969172;
+        color: #FFFFFF;
+        transition: .2s ease-in-out;
+    }
 }
