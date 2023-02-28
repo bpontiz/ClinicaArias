@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SectionFooter {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Rubik';
+}
+
+.DivLogo, .DivMedia {
+    margin: 3rem 0 3rem 0;
+}
+
+.DivLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DivMedia {
+    padding: 1rem;
+}
+
+.Telephone, .Location {
+    font-size: 18px;
+    width: 200px;
+    padding: .5rem 0 .5rem 0;
+    margin: .25rem;
+    font-weight: bold;
+}
+
+.TelephoneNumber {
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    transition: .2s ease-in-out;
+}
+
+.TelephoneNumber:hover {
+    color: navy;
+    transform: scale(1.05);
+    transition: .2s ease-in-out;
+}
+
+.LinkTelephone {
+    text-decoration: none;
+}
+
+.LocationDetail {
+    font-size: 18px;
+}
+
+.AriasClinicLogo {
+    max-width: 250px
+}
+
+.GoogleMaps {
+    margin-top: .5rem;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    transition: .2s ease-in-out;
+}
+
+.GoogleMaps:hover {
+    -webkit-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    transition: .2s ease-in-out;
+}
+
+.LinkMedia {
+    text-decoration: none;
+}
+
+.SocialMedia {
+    color: black;
+    margin: 1rem 0 .5rem 0;
+    font-size: 18px;
+    transition: .2s ease-in-out;
+}
+
+.SocialMedia:hover {
+    transition: .2s ease-in-out;
+    color: navy;
+}
