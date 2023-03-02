@@ -75,7 +75,7 @@
 @media (max-width: 480px) {
     .DivShift {
         width: 100vw;
-        margin: 9vh auto;
+        margin: 11vh auto;
         text-align: center;
     }
 
@@ -95,7 +95,7 @@
 @media (min-width: 481px) and (max-width: 768px) {
     .DivShift {
         width: 100vw;
-        margin: 12vh auto;
+        margin: 18vh auto;
         text-align: center;
     }
 

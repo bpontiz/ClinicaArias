@@ -42,9 +42,9 @@ export default function Navigation() {
                 </div>
                 <div className="DivNavigation">
                     <ul className="UlNavigationList">
-                        <Link to="/" className="Link"><li className="LiNavigationItem">HOME</li></Link>
+                        <Link to="/" className="Link" reloadDocument><li className="LiNavigationItem">HOME</li></Link>
                         <Link to="#" className="Link"><li className="LiNavigationItem">TURNOS</li></Link>
-                        <Link to="/especialidades" className="Link"><li className="LiNavigationItem">ESPECIALIDADES</li></Link>
+                        <Link to="/especialidades" className="Link" reloadDocument><li className="LiNavigationItem">ESPECIALIDADES</li></Link>
                         <Link to="#" className="Link"><li className="LiNavigationItem">CONTACTO</li></Link>
                     </ul>
                 </div>
