@@ -25,6 +25,6 @@ function App() {
   );
 }
 
-
+// Secretaria rellena un formulario con nombre, telefono, correo, descripcion para envio automatico y recordatorio de turno por whapp y gmail. El formulario va a estar en la misma pagina (se muestra a pacientyes ?) 
 
 export default App;

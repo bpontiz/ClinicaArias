@@ -38,14 +38,14 @@ export default function Navigation() {
         <section className="Navigation">
             <div className={backgroundColor ? "ContainerNavigationColor" : "ContainerNavigationTransparent"}>
                 <div className="DivImage">
-                    <Link to="/" className="LinkLogo"><h1 className="Logo">CLINICA ARIAS</h1></Link>
+                    <Link to="/" className="LinkLogo" reloadDocument><h1 className="Logo">CLINICA ARIAS</h1></Link>
                 </div>
                 <div className="DivNavigation">
                     <ul className="UlNavigationList">
                         <Link to="/" className="Link" reloadDocument><li className="LiNavigationItem">HOME</li></Link>
-                        <Link to="#" className="Link"><li className="LiNavigationItem">TURNOS</li></Link>
+                        <Link to="#" className="Link"><li className="LiNavigationItem">CURSOS</li></Link>
                         <Link to="/especialidades" className="Link" reloadDocument><li className="LiNavigationItem">ESPECIALIDADES</li></Link>
-                        <Link to="#" className="Link"><li className="LiNavigationItem">CONTACTO</li></Link>
+                        <Link to="#" className="Link"><li className="LiNavigationItem">TURNOS</li></Link>
                     </ul>
                 </div>
             </div>

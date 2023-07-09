@@ -9,7 +9,7 @@ export default function IntroVideo() {
             <div className="DivVideo">
                 <div className="DivShift">
                     <h3 className="Shift">Odontología Arias</h3>
-                    <h3 className="Shift">Agendá tu turno por Whastapp</h3>
+                    <h3 className="Shift">Agendá tu turno por Whatsapp</h3>
                     <Link to="https://api.whatsapp.com/send/?phone=5492612086318&text&type=phone_number&app_absent=0" target={'_blank'}><button className="ButtonShift">Agendá aquí</button></Link>
                 </div>
                 <video autoPlay={true} muted loop className="Video">
